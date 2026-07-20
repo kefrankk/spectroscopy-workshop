@@ -1,0 +1,12 @@
+name: iraf27
+channels:
+  - http://ssb.stsci.edu/astroconda
+  - http://astroconda.gemini.edu/public
+  - conda-forge
+  - defaults
+dependencies:
+  - iraf-all
+  - stsci
+  - python=2.7
+  - pyraf-all
+  - iraf.gemini=1.15
