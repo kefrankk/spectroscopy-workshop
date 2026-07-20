@@ -8,5 +8,6 @@ tar xvfj StarlightChains_v04.Distrib.tar.bz2
 # Remove the compiled file
 rm StarlightChains_v04.Distrib.tar.bz2
 
-
+# Final message
+echo "       Starlight installed successfully!         "
 
