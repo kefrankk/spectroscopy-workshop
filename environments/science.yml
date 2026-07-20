@@ -1,0 +1,16 @@
+name: science
+channels:
+  - http://ssb.stsci.edu/astroconda
+  - http://astroconda.gemini.edu/public
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.12.1
+  - pip:
+      - astropy==8.0.1
+      - ifscube==1.3
+      - matplotlib==3.11.1
+      - numpy==2.4.6
+      - scipy==1.18.0
+      - tqdm==4.69.0
