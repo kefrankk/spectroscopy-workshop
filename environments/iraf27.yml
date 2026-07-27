@@ -10,3 +10,4 @@ dependencies:
   - python=2.7
   - pyraf-all
   - iraf.gemini=1.15
+  - numpy<2
