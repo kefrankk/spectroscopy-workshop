@@ -7,6 +7,8 @@ channels:
 dependencies:
   - pip
   - python=3.12.1
+  - ipykernel
+  - notebook
   - pip:
       - astropy==8.0.1
       - ifscube==1.3
@@ -14,3 +16,4 @@ dependencies:
       - numpy==2.4.6
       - scipy==1.18.0
       - tqdm==4.69.0
+
