@@ -1,19 +1,81 @@
-# 3D Spectroscopy of Galaxies Workshop
+# 🌌 3D Spectroscopy of Galaxies Workshop
 
 This project is part of the **Workshop: 3D Spectroscopy of Galaxies**, which aims to train, primarily undergraduate and graduate students, in the use of tools and methodologies to study galaxies with Integral Field Spectroscopy data.
 
-In this project, we will carry out the complete process of data reduction and analysis.
-The reduction will be performed entirely using the [IRAF](https://iraf.readthedocs.io/en/latest/index.html) (Image Reduction and Analysis Facility) software, a well-established tool for astronomical data calibration and preprocessing.
-The subsequent analysis will be conducted with two complementary codes: [Starlight](http://www.starlight.ufsc.br/), employed to derive the properties of stellar populations, and [Ifscube](https://github.com/danielrd6/ifscube), used to determine the gas properties of the science objects.
+📊 The project covers the full workflow of data reduction and analysis:
+    
+- Reduction with [IRAF](https://iraf.readthedocs.io/en/latest/index.html)
 
-## Data Reduction with IRAF
+- Stellar population analysis with [Starlight](http://www.starlight.ufsc.br/)
+
+- Gas property determination with [Ifscube](https://github.com/danielrd6/ifscube)
+
+👩‍🏫 Organized by: Gabriele Ilha, Kelly Heckler, Michele Bertoldo Coelho, and Angela C. Krabbe
+
+
+
+## 📂 Repository structure
+
+```
+spectroscopy-workshop/
+├── data/             # Input data and STARLIGHT files
+├── notebooks/        # Jupyter notebooks
+├── scripts/          # Python modules
+├── install_starlight.sh
+├── environment.yml
+└── README.md
+```
+
+## 💻 How to Use
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kefrankk/spectroscopy-workshop.git
+cd spectroscopy-workshop
+```
+
+## 2. Create the Conda environment
+
+```bash
+conda env create -f environment/science.yml
+```
+
+Activate it:
+
+```bash
+conda activate science
+```
+
+
+## 3. Install STARLIGHT
+
+Run
+
+```bash
+bash install_starlight.sh
+```
+
+This downloads and installs the STARLIGHT package into
+
+```
+data/STARLIGHTv04/
+```
+and move all not used files to 
+
+```
+data/STARLIGHTv04/examples/
+```
+
+
+## 🔧 Data Reduction with IRAF
 
 IRAF documentation is avaliable in [here](https://iraf.readthedocs.io/en/latest/index.html)
 
 
 
  
-## Starlight
+## 🌟  Starlight
 
 Starlight is employed to analyze the properties of stellar populations and to subtract their contribution from the observed spectrum. This spectral synthesis approach enables a more accurate characterization of galaxies by disentangling the stellar component from other physical processes present in the data.
 
@@ -26,6 +88,10 @@ To install Starlight, run the following command:
 ```
 The code has been automated to perform the installation in the current folder.
 
+
+📓 “Check the notebook for a guided tutorial on Starlight fitting.”
+
+🐍 “Use the scripts folder for modular tools to automate specific tasks.”
 
 ---
 
