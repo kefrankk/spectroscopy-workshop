@@ -12,5 +12,9 @@ tar xvfj StarlightChains_v04.Distrib.tar.bz2
 rm StarlightChains_v04.Distrib.tar.bz2
 
 # Final message
-echo "       Starlight installed successfully!         "
+echo "       Starlight installed successfully in data directory!         "
 
+cd STARLIGHTv04
+mkdir examples
+
+mv grid* 0784* 0414* Mask* n5377* Base.BC03* examples/
