@@ -1,0 +1,5 @@
+1_279073_26_13.txt  StCv04.C11.config  base_XSL_Kroupa_PC_AGN_LLAMA.txt  mask_gmos_workshop.gm  CCM  0.0  150.0  1_279073_26_13_XSL
+1_279073_26_14.txt  StCv04.C11.config  base_XSL_Kroupa_PC_AGN_LLAMA.txt  mask_gmos_workshop.gm  CCM  0.0  150.0  1_279073_26_14_XSL
+1_279073_26_15.txt  StCv04.C11.config  base_XSL_Kroupa_PC_AGN_LLAMA.txt  mask_gmos_workshop.gm  CCM  0.0  150.0  1_279073_26_15_XSL
+1_279073_26_16.txt  StCv04.C11.config  base_XSL_Kroupa_PC_AGN_LLAMA.txt  mask_gmos_workshop.gm  CCM  0.0  150.0  1_279073_26_16_XSL
+1_279073_26_17.txt  StCv04.C11.config  base_XSL_Kroupa_PC_AGN_LLAMA.txt  mask_gmos_workshop.gm  CCM  0.0  150.0  1_279073_26_17_XSL
